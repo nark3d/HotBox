@@ -244,6 +244,10 @@ If you want to use this heater on your printer, either:
 
 ## Electronics
 
+<p align="center">
+<a href="assets/wiring-diagram.png"><img src="assets/wiring-diagram.png" alt="HotBox Wiring Diagram" width="90%" /></a>
+</p>
+
 This is very much dependent on your setup, but I did the following:
 
 - Used WAGO's on the printer body to connect everything together to keep it neat
