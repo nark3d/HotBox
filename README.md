@@ -1,6 +1,7 @@
 # HotBox
 HotBox - a tiny enclosure heater
 
+
 # 🔥 Disclaimer 🔥
 
 HotBox uses a resistive heating element inside an enclosed space. Built and configured incorrectly, it is a genuine fire risk.
