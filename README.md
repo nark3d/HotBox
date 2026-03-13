@@ -240,6 +240,7 @@ If you want to use this heater on your printer, either:
 - Screw the fan case to the fan duct
 - Keeping the wires tight with one hand push it all together
 - Screw the heater case to the fan case
+- Use a drop of superglue in the magnet holes and tap/push/force them in with something hard
 
 ## Electronics
 
