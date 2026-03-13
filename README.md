@@ -2,7 +2,7 @@
 
 HotBox - a tiny enclosure heater
 
-![HotBox](assets/hotbox.png)
+<img src="assets/hotbox.png" alt="HotBox" width="50%">
 
 # 🔥 Disclaimer 🔥
 
@@ -14,11 +14,11 @@ If you're not comfortable working with high-current DC systems and thermal manag
 
 # BOM
 
-![BOM](assets/BOM.png)
+<img src="assets/BOM.png" alt="BOM" width="50%">
 
 # ZeroG Nebula
 
-![ZeroG-Nebula](assets/ZeroG-Nebula.png)
+<img src="assets/ZeroG-Nebula.png" alt="ZeroG-Nebula" width="50%">
 
 # Gotchas
 
