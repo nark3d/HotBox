@@ -81,7 +81,11 @@ If you're not comfortable working with high-current DC systems and thermal manag
     </tr>
     <tr>
       <td>5</td>
-      <td></td>
+      <td>
+        <a href="assets/BOM/thermal-glue.jpg">
+          <img src="assets/BOM/thermal-glue.jpg" alt="Thermal glue" width="80" />
+        </a>
+      </td>
       <td>Thermal Glue</td>
       <td>EC360 2W/mK thermal adhesive</td>
       <td align="center">1</td>
@@ -135,7 +139,7 @@ If you're not comfortable working with high-current DC systems and thermal manag
     </tr>
     <tr>
       <td>11</td>
-      <td></td>
+      <td><a href="assets/BOM/lid.png"><img src="assets/BOM/lid.png" alt="Lid" width="80"></a></td>
       <td>Lid</td>
       <td>Printed part</td>
       <td align="center">1</td>
@@ -144,7 +148,7 @@ If you're not comfortable working with high-current DC systems and thermal manag
     </tr>
     <tr>
       <td>12</td>
-      <td></td>
+      <td><a href="assets/BOM/heater-case.png"><img src="assets/BOM/heater-case.png" alt="Heater Case" width="80"></a></td>
       <td>Heater Case</td>
       <td>Printed part</td>
       <td align="center">1</td>
@@ -153,7 +157,7 @@ If you're not comfortable working with high-current DC systems and thermal manag
     </tr>
     <tr>
       <td>13</td>
-      <td></td>
+      <td><a href="assets/BOM/fan-case.png"><img src="assets/BOM/fan-case.png" alt="Fan Case" width="80"></a></td>
       <td>Fan Case</td>
       <td>Printed part</td>
       <td align="center">1</td>
@@ -162,7 +166,7 @@ If you're not comfortable working with high-current DC systems and thermal manag
     </tr>
     <tr>
       <td>14</td>
-      <td></td>
+      <td><a href="assets/BOM/fan-duct.png"><img src="assets/BOM/fan-duct.png" alt="Fan Duct" width="80"></a></td>
       <td>Fan Duct</td>
       <td>Printed part</td>
       <td align="center">1</td>
@@ -171,7 +175,7 @@ If you're not comfortable working with high-current DC systems and thermal manag
     </tr>
     <tr>
       <td>15</td>
-      <td></td>
+      <td><a href="assets/BOM/zerog-fan-duct.png"><img src="assets/BOM/zerog-fan-duct.png" alt="Fan Duct ZeroG Nebula" width="80"></a></td>
       <td>Fan Duct ZeroG Nebula</td>
       <td>Printed part</td>
       <td align="center">1</td>
