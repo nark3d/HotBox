@@ -2,6 +2,16 @@
 
 HotBox - a tiny enclosure heater
 
+## Contents
+
+- [Disclaimer](#-disclaimer-)
+- [BOM](#bom)
+- [Note](#note)
+- [Installation Instructions](#installation-instructions)
+- [Klipper Config](#klipper-config)
+- [Gotchas](#gotchas)
+- [Inspiration and Credit](#inspiration-and-credit)
+
 <p align="center">
 <a href="assets/hotbox.png"><img src="assets/hotbox.png" alt="HotBox" width="50%" /></a>
 </p>
@@ -14,11 +24,12 @@ HotBox - a tiny enclosure heater
 
 # 🔥 Disclaimer 🔥
 
-HotBox uses a resistive heating element inside an enclosed space. Built and configured incorrectly, it is a genuine fire risk.
-
-This project is shared as-is for experienced makers who understand the risks. The author accepts no responsibility for damage, injury, or loss of any kind. You build and run this entirely at your own risk.
-
-If you're not comfortable working with high-current DC systems and thermal management, please don't attempt this build.
+> [!WARNING]
+> HotBox uses a resistive heating element inside an enclosed space. Built and configured incorrectly, it is a genuine fire risk.
+>
+> This project is shared as-is for experienced makers who understand the risks. The author accepts no responsibility for damage, injury, or loss of any kind. You build and run this entirely at your own risk.
+>
+> If you're not comfortable working with high-current DC systems and thermal management, please don't attempt this build.
 
 # BOM
 
@@ -223,7 +234,7 @@ If you want to use this heater on your printer, either:
 - Screw down the PTC heater
 - Pull the wires through so that they are neat and not obstructing the heater
 - Push the wires through the fan case and down through the middle hole, but do not tighten
-- Put the fans in the right position in the fan case - aifrlow going up into the PTC element
+- Put the fans in the right position in the fan case - airflow going up into the PTC element
 - Feed the fan wires through the middle hole
 - Feed everything through the middle hole of the fan duct (you may need to join the PTC wire to a new piece of wire and shield it)
 - Screw the fan case to the fan duct
@@ -243,7 +254,7 @@ This is very much dependent on your setup, but I did the following:
 
 ## printer.cfg
 
-```
+```ini
 # ============================================================
 # HOTBOX Config
 # ============================================================
@@ -321,7 +332,7 @@ gcode:
 
 ## hotbox_macros.cfg
 
-```
+```ini
 # ============================================================
 # hotbox_macros.cfg
 # HotBox enclosure heater user macros
@@ -422,8 +433,10 @@ gcode:
 
 - The hotbox fans must run at 100% whenever the PTC element is receiving power. This is not optional — the element will overheat and blow the thermal fuse without active cooling.
 
-- Always let the fans cool the elemet down to 50 degrees or below before switching the machine off.
-- There is a big thermal delay between the PTC element and the thermistor due to the distance between the two. Use thermal glue to bridge the gap, but factor this delay into any calculations
+- Always let the fans cool the element down to 50 degrees or below before switching the machine off.
+
+- There is a big thermal delay between the PTC element and the thermistor due to the distance between the two. Use thermal glue to bridge the gap, but factor this delay into any calculations.
+
 - Running the PTC heater above 87°C for extended periods risks triggering the 125°C thermal fuse. The HOTBOX_CONTROL overtemp cutoff should be set to 87°C maximum.
 
 - The thermistor must be seated directly in the dedicated hole in the PTC element body. Poor contact will cause it to read significantly below actual element temperature, meaning the emergency stop and overtemp cutoff will not trigger in time to protect the thermal fuse.
@@ -443,3 +456,8 @@ gcode:
 [VPN Reviews](https://thevpnadvisor.com)
 
 [AI Image Generator Reviews](https://img-genius.com)
+
+# Inspiration and credit
+
+- [BentoBox](https://www.printables.com/model/272525-bentobox-v20-carbon-filter-for-bambu-lab-x1c-enclo) - I LOVE this and it was what triggered the idea for this design. Simple but effective in small spaces
+- [BentoBox Fan Duct for ZeroG](https://www.printables.com/model/1496065-bentobox-fan-duct-for-zerog-nebula-255) - This is an absolutely great idea and I used the theory to build a similar integration for HotBox
