@@ -168,7 +168,7 @@ HotBox - a tiny enclosure heater
       <td>Printed part</td>
       <td align="center">1</td>
       <td>Print in ABS/ASA</td>
-      <td></td>
+      <td><a href="STLs/hotbox-lid-v1.0.stl">STL</a></td>
     </tr>
     <tr>
       <td>13</td>
@@ -177,7 +177,7 @@ HotBox - a tiny enclosure heater
       <td>Printed part</td>
       <td align="center">1</td>
       <td>Print in ABS/ASA</td>
-      <td></td>
+      <td><a href="STLs/hotbox-heater-case-v9.3.stl">STL</a></td>
     </tr>
     <tr>
       <td>14</td>
@@ -186,7 +186,7 @@ HotBox - a tiny enclosure heater
       <td>Printed part</td>
       <td align="center">1</td>
       <td>Print in ABS/ASA</td>
-      <td></td>
+      <td><a href="STLs/hotbox-fan-case-v4.2.stl">STL</a></td>
     </tr>
     <tr>
       <td>15</td>
@@ -195,7 +195,7 @@ HotBox - a tiny enclosure heater
       <td>Printed part</td>
       <td align="center">1</td>
       <td>Print in ABS/ASA</td>
-      <td></td>
+      <td><a href="STLs/hotbox-fan-duct-v2.1.stl">STL</a></td>
     </tr>
     <tr>
       <td>16</td>
@@ -204,7 +204,7 @@ HotBox - a tiny enclosure heater
       <td>Printed part</td>
       <td align="center">1</td>
       <td>Print in ABS/ASA; alternative duct for ZeroG Nebula enclosure</td>
-      <td></td>
+      <td><a href="STLs/hotbox-fan-duct-zerog-nebula-v2.1.stl">STL</a></td>
     </tr>
   </tbody>
 </table>
