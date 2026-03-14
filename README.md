@@ -37,6 +37,10 @@ HotBox - a tiny enclosure heater
 <a href="assets/BOM.png"><img src="assets/BOM.png" alt="BOM" width="50%" /></a>
 </p>
 
+<p align="center">
+<video src="assets/HotBox v18.mp4" width="50%" controls></video>
+</p>
+
 <table>
   <thead>
     <tr>
