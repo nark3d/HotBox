@@ -38,7 +38,7 @@ HotBox - a tiny enclosure heater
 </p>
 
 <p align="center">
-<video src="assets/HotBox v18.mp4" width="50%" controls></video>
+<video src="https://github.com/user-attachments/assets/a794df79-9960-4280-891d-2e4521b5a101" width="50%" controls></video>
 </p>
 
 <table>
